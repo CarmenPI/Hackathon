@@ -291,6 +291,17 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Needs_KB_Article__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Select this checkbox if you need a KB article to close the case.</description>
+        <externalId>false</externalId>
+        <label>Needs KB Article</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Origin</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -388,6 +399,18 @@
     <fields>
         <fullName>SuppliedPhone</fullName>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Troubleshooting_Steps__c</fullName>
+        <description>If you need a KB article to close a case, fill in this field with the steps required to solve the issue that need to be documented.</description>
+        <externalId>false</externalId>
+        <label>Troubleshooting Steps</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
     </fields>
     <fields>
         <fullName>Type</fullName>
